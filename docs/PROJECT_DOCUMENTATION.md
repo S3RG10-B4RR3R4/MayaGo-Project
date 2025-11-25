@@ -725,12 +725,11 @@ The platform creates a **triple-win scenario**:
 ## 👥 Team
 
 **Project Team Members:**
-- [Team Member 1] - Product & Technology
-- [Team Member 2] - Business & Operations  
-- [Team Member 3] - Marketing & Community
-- [Team Member 4] - Finance & Analytics
+- Sergio Barrera 
+- Ariel Buenfil  
+- Alan Valbuena
 
-**Institution:** [University Name]  
+**Institution:** Universidad Politécnica de Yucatán  
 **Program:** Digital Economy  
 **Date:** November 2024
 
