@@ -1,0 +1,272 @@
+{
+  "users": [
+    {
+      "id": 101,
+      "name": "Doña María Hernández",
+      "email": "maria.hernandez@mayago.com",
+      "role": "provider",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "bio": "Third-generation Yucatecan cook passionate about sharing my grandmother's traditional recipes. Cooking is not just about food—it's about preserving our culture and bringing people together.",
+      "languages": ["Spanish", "English"],
+      "location": {
+        "city": "Mérida",
+        "state": "Yucatán"
+      },
+      "joined_date": "2023-03-15",
+      "verified": true,
+      "super_host": true,
+      "total_experiences": 1,
+      "total_reviews": 127,
+      "average_rating": 4.9,
+      "response_rate": 98,
+      "response_time": "within an hour",
+      "member_since": "March 2023"
+    },
+    {
+      "id": 102,
+      "name": "Carlos Poot",
+      "email": "carlos.poot@mayago.com",
+      "role": "provider",
+      "avatar": "https://i.pravatar.cc/150?img=12",
+      "bio": "Born and raised in a small Mayan village near Homún. I grew up swimming in these cenotes and want to share their magic with visitors while keeping them protected for future generations.",
+      "languages": ["Spanish", "English", "Maya"],
+      "location": {
+        "city": "Homún",
+        "state": "Yucatán"
+      },
+      "joined_date": "2023-05-22",
+      "verified": true,
+      "super_host": true,
+      "total_experiences": 1,
+      "total_reviews": 89,
+      "average_rating": 4.95,
+      "response_rate": 100,
+      "response_time": "within an hour",
+      "member_since": "May 2023"
+    },
+    {
+      "id": 103,
+      "name": "Isabel Canul",
+      "email": "isabel.canul@mayago.com",
+      "role": "provider",
+      "avatar": "https://i.pravatar.cc/150?img=5",
+      "bio": "Leader of the Flores de Maní women's cooperative. We embroider traditional Mayan patterns learned from our mothers and grandmothers. This work allows us to earn income while preserving our cultural heritage.",
+      "languages": ["Spanish", "Maya", "Basic English"],
+      "location": {
+        "city": "Maní",
+        "state": "Yucatán"
+      },
+      "joined_date": "2023-02-10",
+      "verified": true,
+      "super_host": false,
+      "total_experiences": 1,
+      "total_reviews": 64,
+      "average_rating": 4.85,
+      "response_rate": 95,
+      "response_time": "within a few hours",
+      "member_since": "February 2023"
+    },
+    {
+      "id": 104,
+      "name": "Dr. Juan Caamal",
+      "email": "juan.caamal@mayago.com",
+      "role": "provider",
+      "avatar": "https://i.pravatar.cc/150?img=33",
+      "bio": "Mayan archaeologist with PhD from UNAM. I've dedicated my career to studying and preserving Yucatán's archaeological sites. Sharing my knowledge with curious visitors is both a privilege and a responsibility.",
+      "languages": ["Spanish", "English", "Maya"],
+      "location": {
+        "city": "Uxmal",
+        "state": "Yucatán"
+      },
+      "joined_date": "2023-07-01",
+      "verified": true,
+      "super_host": true,
+      "total_experiences": 1,
+      "total_reviews": 42,
+      "average_rating": 5.0,
+      "response_rate": 100,
+      "response_time": "within an hour",
+      "member_since": "July 2023"
+    },
+    {
+      "id": 105,
+      "name": "Roberto Dzul",
+      "email": "roberto.dzul@mayago.com",
+      "role": "provider",
+      "avatar": "https://i.pravatar.cc/150?img=68",
+      "bio": "Licensed boat captain and bird watching expert from Celestún. My family has lived here for four generations. I'm passionate about showing visitors the beauty of our biosphere while teaching them about conservation.",
+      "languages": ["Spanish", "English"],
+      "location": {
+        "city": "Celestún",
+        "state": "Yucatán"
+      },
+      "joined_date": "2023-04-18",
+      "verified": true,
+      "super_host": false,
+      "total_experiences": 1,
+      "total_reviews": 156,
+      "average_rating": 4.8,
+      "response_rate": 97,
+      "response_time": "within a few hours",
+      "member_since": "April 2023"
+    },
+    {
+      "id": 106,
+      "name": "Alejandra Medina",
+      "email": "ale.medina@mayago.com",
+      "role": "provider",
+      "avatar": "https://i.pravatar.cc/150?img=9",
+      "bio": "Food blogger, foodie, and proud Meridana. I started @MeridaEats to showcase our amazing street food scene. Now I love taking visitors to my favorite spots and seeing their faces when they try authentic Yucatecan food for the first time!",
+      "languages": ["Spanish", "English"],
+      "location": {
+        "city": "Mérida",
+        "state": "Yucatán"
+      },
+      "joined_date": "2023-01-20",
+      "verified": true,
+      "super_host": true,
+      "total_experiences": 1,
+      "total_reviews": 203,
+      "average_rating": 4.92,
+      "response_rate": 99,
+      "response_time": "within an hour",
+      "member_since": "January 2023"
+    },
+    {
+      "id": 107,
+      "name": "Don Pedro Uc",
+      "email": "pedro.uc@mayago.com",
+      "role": "provider",
+      "avatar": "https://i.pravatar.cc/150?img=51",
+      "bio": "Fifth-generation melipona beekeeper. My great-great-grandfather taught my great-grandfather, who taught my grandfather, who taught my father, who taught me. Now I'm teaching my son and sharing this ancient knowledge with the world.",
+      "languages": ["Spanish", "Maya", "Basic English"],
+      "location": {
+        "city": "Tixkokob",
+        "state": "Yucatán"
+      },
+      "joined_date": "2023-06-10",
+      "verified": true,
+      "super_host": false,
+      "total_experiences": 1,
+      "total_reviews": 77,
+      "average_rating": 4.88,
+      "response_rate": 92,
+      "response_time": "within a day",
+      "member_since": "June 2023"
+    },
+    {
+      "id": 108,
+      "name": "Guillermo Pech",
+      "email": "guillermo.pech@mayago.com",
+      "role": "provider",
+      "avatar": "https://i.pravatar.cc/150?img=60",
+      "bio": "Master hammock weaver for 40 years. I learned this craft as a young boy and have perfected it over decades. Yucatecan hammocks are an art form, and I'm proud to keep this tradition alive.",
+      "languages": ["Spanish", "Basic English"],
+      "location": {
+        "city": "Tixkokob",
+        "state": "Yucatán"
+      },
+      "joined_date": "2023-08-05",
+      "verified": true,
+      "super_host": false,
+      "total_experiences": 1,
+      "total_reviews": 48,
+      "average_rating": 4.75,
+      "response_rate": 90,
+      "response_time": "within a day",
+      "member_since": "August 2023"
+    },
+    {
+      "id": 201,
+      "name": "Sarah Thompson",
+      "email": "sarah.thompson@email.com",
+      "role": "traveler",
+      "avatar": "https://i.pravatar.cc/150?img=47",
+      "bio": "Digital nomad from Seattle exploring Mexico. Love authentic experiences and supporting local communities.",
+      "languages": ["English", "Spanish (learning)"],
+      "location": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "USA"
+      },
+      "joined_date": "2023-09-12",
+      "verified": true,
+      "total_bookings": 5,
+      "total_reviews_written": 5,
+      "member_since": "September 2023"
+    },
+    {
+      "id": 202,
+      "name": "Thomas Mueller",
+      "email": "thomas.mueller@email.de",
+      "role": "traveler",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "bio": "History teacher from Berlin. Fascinated by Mayan culture and archaeology. Always looking for educational experiences.",
+      "languages": ["German", "English", "Spanish"],
+      "location": {
+        "city": "Berlin",
+        "country": "Germany"
+      },
+      "joined_date": "2023-10-03",
+      "verified": true,
+      "total_bookings": 3,
+      "total_reviews_written": 3,
+      "member_since": "October 2023"
+    },
+    {
+      "id": 203,
+      "name": "Emily Chen",
+      "email": "emily.chen@email.com",
+      "role": "traveler",
+      "avatar": "https://i.pravatar.cc/150?img=20",
+      "bio": "Food photographer and travel blogger from Toronto. Documenting authentic culinary experiences around the world.",
+      "languages": ["English", "Mandarin"],
+      "location": {
+        "city": "Toronto",
+        "state": "Ontario",
+        "country": "Canada"
+      },
+      "joined_date": "2023-08-20",
+      "verified": true,
+      "total_bookings": 8,
+      "total_reviews_written": 7,
+      "member_since": "August 2023"
+    },
+    {
+      "id": 204,
+      "name": "Miguel Ángel Ruiz",
+      "email": "miguel.ruiz@email.com",
+      "role": "traveler",
+      "avatar": "https://i.pravatar.cc/150?img=52",
+      "bio": "Arquitecto de la CDMX. Me encanta viajar por México y conocer las tradiciones de cada región.",
+      "languages": ["Spanish", "English"],
+      "location": {
+        "city": "Ciudad de México",
+        "country": "México"
+      },
+      "joined_date": "2023-07-15",
+      "verified": true,
+      "total_bookings": 6,
+      "total_reviews_written": 6,
+      "member_since": "July 2023"
+    },
+    {
+      "id": 205,
+      "name": "Sophie Dubois",
+      "email": "sophie.dubois@email.fr",
+      "role": "traveler",
+      "avatar": "https://i.pravatar.cc/150?img=23",
+      "bio": "Anthropologie student from Paris. Doing research on indigenous cultures and sustainable tourism in Latin America.",
+      "languages": ["French", "English", "Spanish"],
+      "location": {
+        "city": "Paris",
+        "country": "France"
+      },
+      "joined_date": "2023-11-01",
+      "verified": true,
+      "total_bookings": 4,
+      "total_reviews_written": 4,
+      "member_since": "November 2023"
+    }
+  ]
+}

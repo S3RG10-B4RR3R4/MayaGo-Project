@@ -1,0 +1,450 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "title": "Traditional Cochinita Pibil Cooking Class",
+      "provider_id": 101,
+      "provider_name": "Doña María Hernández",
+      "provider_avatar": "https://i.pravatar.cc/150?img=1",
+      "category": "food",
+      "short_description": "Learn to prepare authentic Yucatecan cochinita pibil in a family home",
+      "long_description": "Join Doña María, a third-generation Yucatecan cook, in her traditional family kitchen. You'll learn the ancient art of preparing cochinita pibil, marinating pork in achiote paste and cooking it wrapped in banana leaves. The experience includes a visit to the local market to buy fresh ingredients, hands-on cooking, and enjoying your creation with handmade tortillas. Maria will share stories of her grandmother's recipes and the cultural significance of this iconic dish.",
+      "price": 65,
+      "currency": "USD",
+      "duration": 240,
+      "max_guests": 6,
+      "location": {
+        "city": "Mérida",
+        "state": "Yucatán",
+        "neighborhood": "Centro",
+        "lat": 20.9674,
+        "lng": -89.6243,
+        "meeting_point": "Parque de Santa Ana"
+      },
+      "languages": ["Spanish", "English"],
+      "included": [
+        "All ingredients and materials",
+        "Traditional Yucatecan lunch",
+        "Recipe booklet to take home",
+        "Market tour",
+        "Non-alcoholic beverages"
+      ],
+      "not_included": [
+        "Transportation to meeting point",
+        "Alcoholic beverages"
+      ],
+      "requirements": [
+        "Comfortable clothing",
+        "Closed-toe shoes",
+        "No dietary restrictions (pork-based)"
+      ],
+      "cancellation_policy": "Free cancellation up to 24 hours before the experience",
+      "rating": 4.9,
+      "reviews_count": 127,
+      "bookings_count": 134,
+      "featured": true,
+      "images": [
+        "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=800",
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800"
+      ],
+      "availability": {
+        "days": ["Monday", "Wednesday", "Friday", "Saturday"],
+        "time_slots": ["10:00 AM", "4:00 PM"]
+      },
+      "tags": ["cooking", "traditional", "family", "authentic", "hands-on"]
+    },
+    {
+      "id": 2,
+      "title": "Hidden Cenotes Adventure by Bike",
+      "provider_id": 102,
+      "provider_name": "Carlos Poot",
+      "provider_avatar": "https://i.pravatar.cc/150?img=12",
+      "category": "adventure",
+      "short_description": "Bike through Mayan villages to discover secret cenotes known only to locals",
+      "long_description": "Escape the tourist crowds and explore three pristine cenotes that few visitors know about. Carlos, a local guide born and raised in a nearby village, will lead you on a 15km bike ride through scenic countryside, small Mayan communities, and jungle paths. Each cenote offers a unique experience: one for swimming, one for cliff jumping, and one sacred cenote where we'll learn about Mayan cosmology. The tour includes fresh fruit, water, and a traditional lunch at a local family's home.",
+      "price": 75,
+      "currency": "USD",
+      "duration": 300,
+      "max_guests": 8,
+      "location": {
+        "city": "Homún",
+        "state": "Yucatán",
+        "neighborhood": "Pueblo",
+        "lat": 20.7333,
+        "lng": -89.2833,
+        "meeting_point": "Homún Town Square"
+      },
+      "languages": ["Spanish", "English", "Maya"],
+      "included": [
+        "Bicycle rental and helmet",
+        "Entry to 3 cenotes",
+        "Life jackets and snorkel equipment",
+        "Traditional Yucatecan lunch",
+        "Bottled water and fresh fruit",
+        "Local guide",
+        "Transportation from Mérida (optional +$15)"
+      ],
+      "not_included": [
+        "Transportation to Homún (if not selected)",
+        "Towel",
+        "Underwater camera"
+      ],
+      "requirements": [
+        "Basic cycling ability",
+        "Swimsuit and towel",
+        "Sunscreen (biodegradable only)",
+        "Minimum age: 12 years",
+        "Moderate fitness level required"
+      ],
+      "cancellation_policy": "Free cancellation up to 48 hours before the experience",
+      "rating": 4.95,
+      "reviews_count": 89,
+      "bookings_count": 92,
+      "featured": true,
+      "images": [
+        "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800",
+        "https://images.unsplash.com/photo-1580312804821-d75c0d92e48d?w=800",
+        "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?w=800"
+      ],
+      "availability": {
+        "days": ["Tuesday", "Thursday", "Saturday", "Sunday"],
+        "time_slots": ["8:00 AM"]
+      },
+      "tags": ["adventure", "nature", "cenotes", "cycling", "off-the-beaten-path", "swimming"]
+    },
+    {
+      "id": 3,
+      "title": "Mayan Embroidery Workshop with Artisan Women",
+      "provider_id": 103,
+      "provider_name": "Isabel Canul",
+      "provider_avatar": "https://i.pravatar.cc/150?img=5",
+      "category": "culture",
+      "short_description": "Learn traditional hipil embroidery techniques from Mayan women artisans",
+      "long_description": "Visit a cooperative of Mayan women artisans who are preserving centuries-old embroidery traditions. Isabel and her team will teach you the symbolic meanings behind the traditional patterns and guide you in creating your own embroidered piece. Learn about the natural dyes made from local plants, the significance of different motifs, and the role of embroidery in Mayan culture. You'll take home your handmade creation and support the economic empowerment of indigenous women.",
+      "price": 45,
+      "currency": "USD",
+      "duration": 180,
+      "max_guests": 10,
+      "location": {
+        "city": "Maní",
+        "state": "Yucatán",
+        "neighborhood": "Centro",
+        "lat": 20.3833,
+        "lng": -89.4500,
+        "meeting_point": "Cooperativa Flores de Maní"
+      },
+      "languages": ["Spanish", "Maya", "Basic English"],
+      "included": [
+        "All embroidery materials",
+        "Traditional Mayan snacks",
+        "Your finished embroidered piece",
+        "Certificate of participation",
+        "Tea with local herbs"
+      ],
+      "not_included": [
+        "Transportation to Maní",
+        "Additional embroidered items for purchase"
+      ],
+      "requirements": [
+        "No experience necessary",
+        "All ages welcome (children 8+)",
+        "Patience and interest in handicrafts"
+      ],
+      "cancellation_policy": "Free cancellation up to 24 hours before the experience",
+      "rating": 4.85,
+      "reviews_count": 64,
+      "bookings_count": 71,
+      "featured": false,
+      "images": [
+        "https://images.unsplash.com/photo-1591005337378-952f747b5356?w=800",
+        "https://images.unsplash.com/photo-1610718158127-34d5462ad5d1?w=800",
+        "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=800"
+      ],
+      "availability": {
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "time_slots": ["10:00 AM", "3:00 PM"]
+      },
+      "tags": ["culture", "handicrafts", "women-led", "traditional", "art", "textile"]
+    },
+    {
+      "id": 4,
+      "title": "Sunset at Uxmal with Local Archaeologist",
+      "provider_id": 104,
+      "provider_name": "Dr. Juan Caamal",
+      "provider_avatar": "https://i.pravatar.cc/150?img=33",
+      "category": "culture",
+      "short_description": "Private tour of Uxmal ruins at sunset with a Mayan archaeologist",
+      "long_description": "Experience Uxmal like never before with Dr. Juan Caamal, a Mayan archaeologist who has worked on excavations at the site for over 15 years. This intimate tour (max 4 people) takes place during the golden hour, when most tourists have left. Juan will reveal hidden details, debunk common myths, and share cutting-edge archaeological discoveries. Learn to read the carved glyphs, understand the astronomical alignments, and hear stories passed down through his family. End the evening watching the sunset from the Pyramid of the Magician.",
+      "price": 120,
+      "currency": "USD",
+      "duration": 150,
+      "max_guests": 4,
+      "location": {
+        "city": "Uxmal",
+        "state": "Yucatán",
+        "neighborhood": "Zona Arqueológica",
+        "lat": 20.3594,
+        "lng": -89.7714,
+        "meeting_point": "Uxmal Main Entrance"
+      },
+      "languages": ["Spanish", "English", "Maya"],
+      "included": [
+        "Skip-the-line entrance ticket",
+        "Private expert guide (archaeologist)",
+        "Light refreshments",
+        "Sunset photography tips",
+        "Exclusive access to restricted area (subject to availability)"
+      ],
+      "not_included": [
+        "Transportation to Uxmal",
+        "Dinner",
+        "Sound and Light Show ticket (optional)"
+      ],
+      "requirements": [
+        "Moderate walking required",
+        "Hat and sunscreen recommended",
+        "Camera for amazing photo opportunities",
+        "Minimum age: 10 years"
+      ],
+      "cancellation_policy": "Free cancellation up to 48 hours before the experience",
+      "rating": 5.0,
+      "reviews_count": 42,
+      "bookings_count": 42,
+      "featured": true,
+      "images": [
+        "https://images.unsplash.com/photo-1518638150340-f706e86654de?w=800",
+        "https://images.unsplash.com/photo-1569165003085-e8a1066f1cb8?w=800",
+        "https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?w=800"
+      ],
+      "availability": {
+        "days": ["Monday", "Wednesday", "Friday", "Sunday"],
+        "time_slots": ["5:00 PM"]
+      },
+      "tags": ["culture", "history", "archaeology", "ruins", "expert-led", "sunset", "small-group"]
+    },
+    {
+      "id": 5,
+      "title": "Flamingo Watching & Seafood at Celestún",
+      "provider_id": 105,
+      "provider_name": "Roberto Dzul",
+      "provider_avatar": "https://i.pravatar.cc/150?img=68",
+      "category": "nature",
+      "short_description": "Boat tour to see thousands of flamingos in their natural habitat",
+      "long_description": "Venture to the Celestún Biosphere Reserve, home to one of the largest flamingo colonies in Mexico. Roberto, a licensed boat captain and bird expert, will navigate the mangrove channels to get you up close to these magnificent pink birds. You'll also spot herons, pelicans, and possibly crocodiles. After the 2-hour boat tour, enjoy fresh ceviche and grilled fish at Roberto's family restaurant right on the beach. This experience supports local conservation efforts – 5% of proceeds go to flamingo habitat protection.",
+      "price": 85,
+      "currency": "USD",
+      "duration": 360,
+      "max_guests": 6,
+      "location": {
+        "city": "Celestún",
+        "state": "Yucatán",
+        "neighborhood": "Puerto",
+        "lat": 20.8667,
+        "lng": -90.4000,
+        "meeting_point": "Celestún Boat Dock"
+      },
+      "languages": ["Spanish", "English"],
+      "included": [
+        "2-hour private boat tour",
+        "Life jackets",
+        "Fresh seafood lunch",
+        "Binoculars for bird watching",
+        "Bottled water",
+        "Entrance to biosphere reserve",
+        "Beach time after lunch"
+      ],
+      "not_included": [
+        "Transportation to Celestún (available +$25)",
+        "Alcoholic beverages",
+        "Sunscreen and insect repellent"
+      ],
+      "requirements": [
+        "All ages welcome",
+        "Comfortable shoes that can get wet",
+        "Hat and sunglasses",
+        "Camera with zoom lens recommended"
+      ],
+      "cancellation_policy": "Free cancellation up to 24 hours before the experience",
+      "rating": 4.8,
+      "reviews_count": 156,
+      "bookings_count": 163,
+      "featured": false,
+      "images": [
+        "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800",
+        "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800",
+        "https://images.unsplash.com/photo-1571406252396-a4c0c4e5d3c3?w=800"
+      ],
+      "availability": {
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "time_slots": ["7:00 AM", "3:00 PM"]
+      },
+      "tags": ["nature", "wildlife", "birds", "boat-tour", "conservation", "seafood", "beach"]
+    },
+    {
+      "id": 6,
+      "title": "Street Food Tour: Tacos, Marquesitas & More",
+      "provider_id": 106,
+      "provider_name": "Alejandra Medina",
+      "provider_avatar": "https://i.pravatar.cc/150?img=9",
+      "category": "food",
+      "short_description": "Taste the best street food in Mérida with a local foodie guide",
+      "long_description": "Discover why Mérida is becoming Mexico's next great food destination on this guided street food tour. Alejandra, a food blogger and Mérida native, will take you to her favorite spots that tourists never find. Try authentic panuchos, salbutes, and brazo de reina from decades-old street stalls. Sample sweet marquesitas (crispy crepes) from the famous 'Marquesitas Neri.' Learn the difference between Yucatecan and Mexican cuisine while exploring historic neighborhoods. This isn't a restaurant tour – it's where locals really eat!",
+      "price": 55,
+      "currency": "USD",
+      "duration": 180,
+      "max_guests": 8,
+      "location": {
+        "city": "Mérida",
+        "state": "Yucatán",
+        "neighborhood": "Centro & Santiago",
+        "lat": 20.9737,
+        "lng": -89.6188,
+        "meeting_point": "Parque de Santiago"
+      },
+      "languages": ["Spanish", "English"],
+      "included": [
+        "8-10 food tastings",
+        "Expert local guide",
+        "Bottled water",
+        "Digital food guide with recipes",
+        "Recommendations for restaurants"
+      ],
+      "not_included": [
+        "Additional food or drinks beyond tastings",
+        "Gratuities for vendors"
+      ],
+      "requirements": [
+        "Come hungry!",
+        "Comfortable walking shoes",
+        "Adventurous eater (no dietary restrictions)",
+        "Moderate walking required (2km)"
+      ],
+      "cancellation_policy": "Free cancellation up to 24 hours before the experience",
+      "rating": 4.92,
+      "reviews_count": 203,
+      "bookings_count": 218,
+      "featured": true,
+      "images": [
+        "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800",
+        "https://images.unsplash.com/photo-1613514785940-daed07799d9b?w=800",
+        "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=800"
+      ],
+      "availability": {
+        "days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "time_slots": ["6:00 PM"]
+      },
+      "tags": ["food", "street-food", "walking-tour", "local-favorite", "evening", "tastings"]
+    },
+    {
+      "id": 7,
+      "title": "Beekeeping & Honey Tasting with Melipona Bees",
+      "provider_id": 107,
+      "provider_name": "Don Pedro Uc",
+      "provider_avatar": "https://i.pravatar.cc/150?img=51",
+      "category": "nature",
+      "short_description": "Learn about sacred Mayan stingless bees and taste rare melipona honey",
+      "long_description": "Meet Don Pedro, a fifth-generation melipona beekeeper preserving an ancient Mayan tradition. Unlike European honeybees, melipona bees are stingless and were considered sacred by the Maya. Visit Don Pedro's meliponario (bee sanctuary) to learn about these fascinating creatures, their medicinal honey, and the threats they face. You'll observe the bees up close (they don't sting!), taste different types of melipona honey, and learn how this tradition is being passed to younger generations. This experience supports the conservation of native bee species.",
+      "price": 40,
+      "currency": "USD",
+      "duration": 120,
+      "max_guests": 10,
+      "location": {
+        "city": "Tixkokob",
+        "state": "Yucatán",
+        "neighborhood": "Zona Rural",
+        "lat": 21.0167,
+        "lng": -89.4000,
+        "meeting_point": "Tixkokob Town Center"
+      },
+      "languages": ["Spanish", "Maya", "Basic English"],
+      "included": [
+        "Guided tour of meliponario",
+        "Honey tasting (3-4 varieties)",
+        "Small jar of melipona honey to take home",
+        "Educational materials about native bees",
+        "Traditional Mayan snacks"
+      ],
+      "not_included": [
+        "Transportation to Tixkokob",
+        "Additional honey products for purchase"
+      ],
+      "requirements": [
+        "Family-friendly (all ages)",
+        "No bee allergies (though bees are stingless)",
+        "Closed-toe shoes",
+        "Interest in sustainability"
+      ],
+      "cancellation_policy": "Free cancellation up to 24 hours before the experience",
+      "rating": 4.88,
+      "reviews_count": 77,
+      "bookings_count": 83,
+      "featured": false,
+      "images": [
+        "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800",
+        "https://images.unsplash.com/photo-1587049352846-4a222e784422?w=800",
+        "https://images.unsplash.com/photo-1568526381923-caf3fd520382?w=800"
+      ],
+      "availability": {
+        "days": ["Monday", "Wednesday", "Thursday", "Saturday"],
+        "time_slots": ["9:00 AM", "4:00 PM"]
+      },
+      "tags": ["nature", "beekeeping", "honey", "traditional", "educational", "conservation", "family-friendly"]
+    },
+    {
+      "id": 8,
+      "title": "Hammock Weaving with Master Artisan",
+      "provider_id": 108,
+      "provider_name": "Guillermo Pech",
+      "provider_avatar": "https://i.pravatar.cc/150?img=60",
+      "category": "culture",
+      "short_description": "Learn the art of Yucatecan hammock weaving from a master craftsman",
+      "long_description": "Discover why Yucatecan hammocks are considered the finest in the world. Guillermo has been weaving hammocks for 40 years and will show you every step of the process, from spinning the cotton thread to the intricate weaving technique. While you won't complete a full hammock (that takes weeks!), you'll create a small woven piece and gain deep appreciation for this craft. Guillermo will share stories of how hammock-making shaped Yucatecan culture and the challenges facing artisans today. Optional: purchase an authentic hammock directly from the maker.",
+      "price": 50,
+      "currency": "USD",
+      "duration": 150,
+      "max_guests": 6,
+      "location": {
+        "city": "Tixkokob",
+        "state": "Yucatán",
+        "neighborhood": "Centro",
+        "lat": 21.0167,
+        "lng": -89.4000,
+        "meeting_point": "Taller de Hamacas Pech"
+      },
+      "languages": ["Spanish", "Basic English"],
+      "included": [
+        "Hammock weaving demonstration",
+        "Hands-on weaving lesson",
+        "Your woven piece to take home",
+        "Coffee or cold drink",
+        "Visit to hammock workshop",
+        "10% discount on hammock purchase"
+      ],
+      "not_included": [
+        "Transportation to Tixkokob",
+        "Hammock purchase (optional)"
+      ],
+      "requirements": [
+        "Patience and attention to detail",
+        "All ages welcome",
+        "No experience necessary"
+      ],
+      "cancellation_policy": "Free cancellation up to 24 hours before the experience",
+      "rating": 4.75,
+      "reviews_count": 48,
+      "bookings_count": 52,
+      "featured": false,
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+        "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800",
+        "https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800"
+      ],
+      "availability": {
+        "days": ["Tuesday", "Thursday", "Friday", "Saturday"],
+        "time_slots": ["10:00 AM", "3:00 PM"]
+      },
+      "tags": ["culture", "handicrafts", "traditional", "artisan", "textile", "shopping"]
+    }
+  ]
+}

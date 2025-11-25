@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if show_detail %}{{ experience.title }} - {% endif %}MayaGo Demo</title>
+    
+    <!-- Tabler Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Demo CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/demo.css') }}">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <span class="logo-icon">🗿</span>
+                <span class="logo-text">MayaGo</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="/" class="nav-link">Home</a>
+                <a href="/demo" class="nav-link active">Explore</a>
+            </div>
+            
+            <a href="/" class="btn btn-primary">
+                <i class="ti ti-home"></i>
+                Back to Home
+            </a>
+        </div>
+    </nav>
+
+    {% if show_detail %}
+    <!-- EXPERIENCE DETAIL PAGE -->
+    <section class="detail-section">
+        <div class="container">
+            <a href="/demo" class="back-link">
+                <i class="ti ti-arrow-left"></i>
+                Back to experiences
+            </a>
+            
+            <div class="detail-layout">
+                <!-- Left: Gallery -->
+                <div class="detail-left">
+                    <div class="main-image">
+                        <img src="{{ experience.images[0] }}" alt="{{ experience.title }}" id="mainImage">
+                    </div>
+                    <div class="thumbnail-grid">
+                        {% for image in experience.images[:4] %}
+                        <img src="{{ image }}" alt="Gallery {{ loop.index }}" 
+                             class="thumbnail {% if loop.first %}active{% endif %}"
+                             onclick="changeMainImage('{{ image }}', this)">
+                        {% endfor %}
+                    </div>
+                </div>
+                
+                <!-- Right: Info -->
+                <div class="detail-right">
+                    <div class="detail-category">
+                        <i class="ti ti-{{ categories[experience.category].icon }}"></i>
+                        {{ categories[experience.category].name }}
+                    </div>
+                    
+                    <h1 class="detail-title">{{ experience.title }}</h1>
+                    
+                    <div class="detail-meta">
+                        <div class="rating-large">
+                            <i class="ti ti-star-filled"></i>
+                            <span>{{ experience.rating }}</span>
+                            <span class="reviews-text">({{ experience.reviews_count }} reviews)</span>
+                        </div>
+                        <div class="location">
+                            <i class="ti ti-map-pin"></i>
+                            {{ experience.location.city }}, {{ experience.location.state }}
+                        </div>
+                    </div>
+                    
+                    <div class="detail-description">
+                        <p>{{ experience.long_description }}</p>
+                    </div>
+                    
+                    <div class="detail-highlights">
+                        <div class="highlight-item">
+                            <i class="ti ti-clock"></i>
+                            <div>
+                                <strong>Duration</strong>
+                                <span>{{ experience.duration|format_duration }}</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ti ti-users"></i>
+                            <div>
+                                <strong>Group Size</strong>
+                                <span>Up to {{ experience.max_guests }} guests</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="ti ti-language"></i>
+                            <div>
+                                <strong>Languages</strong>
+                                <span>{{ experience.languages|join(', ') }}</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-included">
+                        <h3><i class="ti ti-check"></i> What's Included</h3>
+                        <ul>
+                            {% for item in experience.included %}
+                            <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    
+                    <!-- Booking Card -->
+                    <div class="booking-card">
+                        <div class="booking-price">
+                            <span class="price-label">From</span>
+                            <span class="price-value">${{ experience.price }}</span>
+                            <span class="price-unit">per person</span>
+                        </div>
+                        <button class="btn btn-primary btn-block" onclick="alert('Demo Mode: Booking would happen here')">
+                            <i class="ti ti-calendar"></i>
+                            Check Availability
+                        </button>
+                        <p class="booking-note">
+                            <i class="ti ti-info-circle"></i>
+                            {{ experience.cancellation_policy }}
+                        </p>
+                    </div>
+                    
+                    <!-- Provider Card -->
+                    {% if provider %}
+                    <div class="provider-card">
+                        <div class="provider-header">
+                            <img src="{{ provider.avatar }}" alt="{{ provider.name }}" class="provider-avatar">
+                            <div class="provider-info">
+                                <h4>{{ provider.name }}</h4>
+                                <div class="provider-stats">
+                                    <span><i class="ti ti-star"></i> {{ provider.average_rating }}</span>
+                                    <span><i class="ti ti-calendar"></i> {{ provider.member_since }}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="provider-bio">{{ provider.bio }}</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <!-- Related Experiences -->
+            {% if related_experiences %}
+            <div class="related-section">
+                <h2>Similar Experiences</h2>
+                <div class="related-grid">
+                    {% for exp in related_experiences %}
+                    <a href="/demo/experience/{{ exp.id }}" class="experience-card">
+                        <div class="experience-image">
+                            <img src="{{ exp.images[0] }}" alt="{{ exp.title }}">
+                        </div>
+                        <div class="experience-content">
+                            <h3 class="experience-title">{{ exp.title }}</h3>
+                            <div class="experience-meta">
+                                <div class="experience-rating">
+                                    <i class="ti ti-star-filled"></i>
+                                    {{ exp.rating }}
+                                </div>
+                                <div class="experience-price">
+                                    ${{ exp.price }}
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </section>
+
+    {% else %}
+    <!-- BROWSE / SEARCH PAGE -->
+    <section class="browse-section">
+        <div class="browse-header">
+            <h1>Explore Authentic Experiences</h1>
+            <p>Discover unique activities offered by local guides and families</p>
+        </div>
+        
+        <!-- Search Bar -->
+        <div class="search-container">
+            <form action="/demo" method="get" class="search-form">
+                <div class="search-input-wrapper">
+                    <i class="ti ti-search"></i>
+                    <input type="text" name="search" placeholder="Search experiences..." 
+                           value="{{ search_query }}" class="search-input">
+                </div>
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+        
+        <div class="browse-layout">
+            <!-- Filters Sidebar -->
+            <aside class="filters-sidebar">
+                <div class="filters-header">
+                    <h3><i class="ti ti-filter"></i> Filters</h3>
+                </div>
+                
+                <form action="/demo" method="get" id="filterForm">
+                    <div class="filter-group">
+                        <label>Category</label>
+                        <select name="category" class="filter-select" onchange="this.form.submit()">
+                            <option value="all" {% if current_category == 'all' %}selected{% endif %}>All Categories</option>
+                            {% for cat_id, category in categories.items() %}
+                            <option value="{{ cat_id }}" {% if current_category == cat_id %}selected{% endif %}>
+                                {{ category.name }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Location</label>
+                        <select name="location" class="filter-select" onchange="this.form.submit()">
+                            <option value="all" {% if current_location == 'all' %}selected{% endif %}>All Locations</option>
+                            {% for location in locations %}
+                            <option value="{{ location }}" {% if current_location == location %}selected{% endif %}>
+                                {{ location }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label>Sort By</label>
+                        <select name="sort" class="filter-select" onchange="this.form.submit()">
+                            <option value="rating">Highest Rated</option>
+                            <option value="popular">Most Popular</option>
+                            <option value="price_low">Price: Low to High</option>
+                            <option value="price_high">Price: High to Low</option>
+                        </select>
+                    </div>
+                </form>
+            </aside>
+            
+            <!-- Experiences Grid -->
+            <div class="experiences-main">
+                <div class="results-header">
+                    <h2>{{ total_count }} Experience{% if total_count != 1 %}s{% endif %} Found</h2>
+                </div>
+                
+                {% if experiences %}
+                <div class="experiences-grid">
+                    {% for experience in experiences %}
+                    <a href="/demo/experience/{{ experience.id }}" class="experience-card">
+                        <div class="experience-image">
+                            <img src="{{ experience.images[0] }}" alt="{{ experience.title }}">
+                            {% if experience.featured %}
+                            <div class="badge-featured">
+                                <i class="ti ti-star-filled"></i>
+                                Featured
+                            </div>
+                            {% endif %}
+                        </div>
+                        <div class="experience-content">
+                            <div class="experience-category">
+                                <i class="ti ti-{{ categories[experience.category].icon }}"></i>
+                                {{ categories[experience.category].name }}
+                            </div>
+                            <h3 class="experience-title">{{ experience.title }}</h3>
+                            <p class="experience-description">{{ experience.short_description }}</p>
+                            
+                            <div class="experience-details">
+                                <span class="detail-item">
+                                    <i class="ti ti-clock"></i>
+                                    {{ experience.duration|format_duration }}
+                                </span>
+                                <span class="detail-item">
+                                    <i class="ti ti-map-pin"></i>
+                                    {{ experience.location.city }}
+                                </span>
+                            </div>
+                            
+                            <div class="experience-footer">
+                                <div class="experience-rating">
+                                    <i class="ti ti-star-filled"></i>
+                                    <span>{{ experience.rating }}</span>
+                                    <span class="reviews-count">({{ experience.reviews_count }})</span>
+                                </div>
+                                <div class="experience-price">
+                                    From <strong>${{ experience.price }}</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="no-results">
+                    <i class="ti ti-mood-sad"></i>
+                    <h3>No experiences found</h3>
+                    <p>Try adjusting your filters or search terms</p>
+                    <a href="/demo" class="btn btn-primary">Clear Filters</a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 MayaGo. Demo Project - Digital Economy Course</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/demo.js') }}"></script>
+    <script>
+        function changeMainImage(src, element) {
+            document.getElementById('mainImage').src = src;
+            document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+            element.classList.add('active');
+        }
+    </script>
+</body>
+</html>
