@@ -436,27 +436,20 @@ This is an academic project, but contributions are welcome!
 
 ## 👥 Team
 
-**Digital Economy Project - [University Name]**
+**Digital Economy Project - Universidad Politecnica de Yucatán**
 
-- **[Team Member 1]** - Product & Technology Lead
-  - GitHub: [@username1](https://github.com/username1)
-  - Email: member1@email.com
-
-- **[Team Member 2]** - Business & Operations Lead
+- **Sergio Barrera**
+  - GitHub: https://github.com/S3RG10-B4RR3R4
+    
+- **[Team Member 2]**
   - GitHub: [@username2](https://github.com/username2)
-  - Email: member2@email.com
 
-- **[Team Member 3]** - Marketing & Design Lead
+- **[Team Member 3]** 
   - GitHub: [@username3](https://github.com/username3)
-  - Email: member3@email.com
 
-- **[Team Member 4]** - Finance & Analytics Lead
-  - GitHub: [@username4](https://github.com/username4)
-  - Email: member4@email.com
-
-**Instructor**: [Professor Name]  
+**Instructor**: Sarah Jeannette Carrillo Ruiz  
 **Course**: Digital Economy  
-**Institution**: [University Name]  
+**Institution**: Universidad Politecnica de Yucatán 
 **Date**: November 2024
 
 ---
