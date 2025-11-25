@@ -441,10 +441,10 @@ This is an academic project, but contributions are welcome!
 - **Sergio Barrera**
   - GitHub: https://github.com/S3RG10-B4RR3R4
     
-- **[Team Member 2]**
+- **Ariel Buenfil**
   - GitHub: [@username2](https://github.com/username2)
 
-- **[Team Member 3]** 
+- **Alan Valbuena** 
   - GitHub: [@username3](https://github.com/username3)
 
 **Instructor**: Sarah Jeannette Carrillo Ruiz  
